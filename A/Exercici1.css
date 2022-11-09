@@ -1,0 +1,50 @@
+body{
+    background-color: gray; /*Posem color al fons*/
+}
+table, th, td{
+    border: 2px solid; /* Tamany i format de la bora*/
+    text-align: center; /*Alineació del text */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Font */
+    border-collapse: collapse; 
+    margin: auto; /* Posem un margin */
+    height: 35px; /* Altura */
+    border-color: white; /* Color de la bora*/
+}
+
+caption{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-style: oblique;
+}
+
+th{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 300px;
+    background-color: purple;
+    color: aquamarine;
+}
+
+td{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    
+}
+
+.data{
+    
+    width: 150px;
+}
+
+.joc{
+    width: 600px;
+    
+}
+.plataforma{
+    width: 200px;
+}
