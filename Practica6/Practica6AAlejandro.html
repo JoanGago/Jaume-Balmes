@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> <!--Para que detecte bien el idioma-->
+        <title>Práctica 6A</title>
+    </head>
+    <body>
+        <form action="arxiuExtern.php">  <!--Un formulario para que el alumno se identifique-->
+        <label>Nom</label>
+        <input type="text"><br><br>
+        <label>Cognom</label>
+        <input type="text"><br><br>
+        <label>Edat</label>
+        <input type="number"><br><br>
+
+        <p>Cicle formatiu que es vol cursar l'any vinent:</p> <!--Aquí se selecciona el ciclo al que deseas pertenecer-->
+        <label>DAM</label>
+        <input type="radio" checked name="DAM"><br> <!--El checked para que sea la marcada por defecto-->
+        <label>ASIX</label>
+        <input type="radio" name="DAM"><br>
+        <label>Altre...</label>
+        <input type="radio" name="DAM"><br>
+
+        <p>Marca les teves aficions</p>
+        <label>Estudiar</label>
+        <input type="checkbox" checked name="AFI"><br> <!--Para que sea la marcada por defecto-->
+        <label>ASIX</label>
+        <input type="checkbox" name="AFI"><br>
+        <label>Llibres</label>
+        <input type="checkbox" name="AFI"><br>
+        <label>Jugar a Magic</label>
+        <input type="checkbox" name="AFI"><br>
+        <label>Fer buriller</label>
+        <input type="checkbox" name="AFI"><br>
+        </form>
+        <label>Altres</label>
+        <textarea rows="10" cols="50">
+
+        </textarea><br><br>  <!--Esta parte es para escribir actividades que te gusten alternativas-->
+        <label>L'estàndar d'HTML més m'agrada</label>
+        <select>
+            <option>HTML5</option>
+            <option>HTML 4.01</option>
+            <option>XHTML 1.0</option>
+        </select>
+    </body>
+</html>
