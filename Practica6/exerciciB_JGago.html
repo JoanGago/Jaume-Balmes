@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--Això es el head-->
+        <title>Formulari</title>
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body> <!--Això es el body-->
+        <form> <!--Defineix un formulari per recopilar informació de l'usuari-->
+            <label>Nom</label><br> <!--Defineix una etiqueta per varis elements d'un formulari-->
+            <input type="text"><br><br> <!--Input permet escriure informació a l'usuari, type es el tipus d'informació-->
+            <label>Cognom</label><br>
+            <input type="text"><br><br>
+            <label>Edat</label><br>
+            <input type="number"><br><br>
+
+            <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+            <label for="dam">DAM</label>
+            <input type="radio" id="dam" checked name="cicle_formatiu" value="DAM"><br>
+            <label for="asix">ASIX</label>
+            <input type="radio" id="asix" name="cicle_formatiu" value="ASIX"><br>
+            <label for="altre">Altre...</label>
+            <input type="radio" id="altre" name="cicle_formatiu" value="Altre..."><br><br>
+            
+            <p>Marca les teves aficions:</p>
+            <label>Estudiar<input type="checkbox"></label><br>
+            <label>ASIX<input type="checkbox"></label><br>
+            <label>Llibres<input type="checkbox"></label><br>
+            <label>Jugar a Magic<input type="checkbox"></label><br>
+            <label>Fer burilles<input type="checkbox"></label><br><br>
+            <div>
+                <label>Altres</label>
+            </div><br>
+            <textarea rows="10" cols="50">
+
+            </textarea><br><br>
+
+            <label>L'estàndard d'HTML que més m'agrada: </label>
+            <select> <!--Defineix una llista desplegable-->
+                <option value="HTML 4.01">HTML 4.01</option>
+                <option value="HTML 4.01">HTML 1.0</option>
+                <option value="HTML 4.01">HTML5</option>
+            </select>
+            
+        </form>
+
+
+    </body>
+
+
+
+
+
+
+</html>
